@@ -14,7 +14,7 @@ body {
   box-shadow: inset 0 0 3px 2px rgba(204, 204, 204, 0.5);
 }
 
-.container {
+.box-wrapper {
   width: 1250px;
   margin: 0 auto;
 }
@@ -86,15 +86,14 @@ header {
    
 }
 
-.card{
+.w-card{
     
-    width: 15%;
+    width: 20%;
     background-color: rgba(228, 228, 228, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 8px;
     display: flex;
     float: right;
-    font-family: "Komu A";
     padding: 10px 10px;
     margin-right: 25px;
     margin-bottom: 35px;
@@ -109,18 +108,18 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
-.card p{
+.w-card p{
 
     font-size: 13px;
     line-height: 4px;
     letter-spacing: 2px;
     padding-left: 10px;
 }
-.card i{
+.w-card i{
     font-size: 30px;
     padding: 5px;
 }
-.card span{
+.w-card span{
     font-size: 15px;
     
 }
